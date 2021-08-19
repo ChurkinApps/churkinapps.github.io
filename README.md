@@ -1,2 +1,2 @@
-# churkinapps.github.io
-ChurkinApps website
+# This is ChurkinApps
+Hey everyone!
