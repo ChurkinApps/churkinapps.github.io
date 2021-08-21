@@ -1,0 +1,11 @@
+.jumbotron {
+    background: url("../img/jumbotron.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 0 !important;
+}
+
+.display-1 {
+    font-size: calc(1rem + 5vw);
+    font-weight:300;
+    line-height:1.2
+}
