@@ -4,12 +4,6 @@
     border-radius: 0;
 }
 
-.jumbotron display-1 {
-    background: url("../img/jumbotron.jpg") no-repeat center center;
-    background-size: cover;
-    border-radius: 0;
-}
-
 .btn-lg {
     border-width:2px;
     border-radius:.8rem;
