@@ -4,13 +4,54 @@
     border-radius: 0;
 }
 
+.unsel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .btn-lg {
-    border-width:2px;
-    border-radius:.8rem;
+    border-width: 2px;
+    border-radius: .8rem;
     font-size: x-large;
 }
 
 .card {
-    border-radius:.6rem;
-    padding:.2rem;
+    border-radius: .6rem;
+    transition: box-shadow .3s;
+    box-shadow: 0 8px 16px rgba(33, 33, 33, 0.05), 0 5px 5px rgba(33, 33, 33, 0.05);
+}
+
+.p-2rem {
+    padding: .2rem;
+}
+
+.card-footer {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(33, 33, 33, .2), 0 5px 5px rgba(33, 33, 33, 0.2);
+}
+
+.social-links a {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.25rem
+}
+
+@media (max-width:991.98px) {
+    .social-links a {
+        padding-left: 3px;
+        padding-right: 3px
+    }
+}
+
+.social-links a:hover {
+    color: #6c757d;
+    cursor: pointer
 }
