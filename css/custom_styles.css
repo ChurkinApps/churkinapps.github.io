@@ -1,3 +1,9 @@
+@media (max-width: 424.98px) {
+    h3 {
+        font-size: 1.45rem!important;
+    }
+}
+
 .jumbotron {
     background: url("../img/jumbotron.jpg") no-repeat center center;
     background-size: cover;
