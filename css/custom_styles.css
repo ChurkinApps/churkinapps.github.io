@@ -55,18 +55,20 @@
 }
 
 @media (min-width: 1500px) {
-    .posts-area {
-        padding-left: 15rem;
-        padding-right: 15rem;
+    .card {
+        margin-left: .5rem;
+        margin-right: .5rem;
     }
 }
 
 @media (min-width: 2200px) {
     .posts-area {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        padding-left: 25rem;
-        padding-right: 25rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .card {
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 }
 
