@@ -10,6 +10,55 @@
     border-radius: 0;
 }
 
+.display-1 {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+header .display-1 {
+    font-size: 2rem;
+}
+
+header .lead {
+    font-size: 1.4rem;
+}
+
+
+@media (min-width:576px) {
+    header .display-1 {
+        font-size: 2.7rem;
+    }
+    header .lead {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width:768px) {
+    header .display-1 {
+        font-size: 3.5rem;
+    }
+    header .lead {
+        font-size: 2.1rem;
+    }
+}
+
+@media (min-width:992px) {
+    header .display-1 {
+        font-size: 4.2rem;
+    }
+    header .lead {
+        font-size: 2.3rem;
+    }
+}
+
+.j-subtitle {
+    font-size: calc(1rem + 2vw);
+    color: white;
+}
+
 .unsel {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -34,8 +83,6 @@
 .card-img-top {
     padding: .2rem;
 }
-
-
 
 .footer-text {
     padding-left: 1rem;
