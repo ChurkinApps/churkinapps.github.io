@@ -35,41 +35,15 @@
     padding: .2rem;
 }
 
+
+
+.footer-text {
+    padding-left: 1rem;
+}
+
 .posts-area {
     padding-left: 1rem;
     padding-right: 1rem;
-}
-
-@media (min-width: 576px) {
-    .posts-area {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-}
-
-@media (min-width: 800px) {
-    .posts-area {
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
-}
-
-@media (min-width: 1500px) {
-    .card {
-        margin-left: .5rem;
-        margin-right: .5rem;
-    }
-}
-
-@media (min-width: 2200px) {
-    .posts-area {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    .card {
-        margin-left: 3rem;
-        margin-right: 3rem;
-    }
 }
 
 .card-footer {
