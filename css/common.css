@@ -1,0 +1,41 @@
+/* NavigationBar title */
+@media (max-width: 424.98px) {
+    h3 {
+        font-size: 1.45rem!important;
+    }
+}
+
+/* Footer */
+.text-footer {
+    font-size: 1.1rem;
+}
+
+@media (max-width:329px) {
+    .text-footer {
+        font-size: .9rem;
+    }
+}
+
+.svg-footer {
+    display: inline-block;
+    font-size: inherit;
+    width: 1.3em;
+    height: 1.3rem;
+    overflow: visible;
+    vertical-align: -.11em;
+}
+
+.f-email-icon {
+    padding-left: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 1.25rem;
+}
+
+.social-links a:hover {
+    color: #195ea2;
+    cursor: pointer;
+}
