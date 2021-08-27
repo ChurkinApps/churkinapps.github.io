@@ -26,7 +26,6 @@ header .lead {
     font-size: 1.4rem;
 }
 
-
 @media (min-width:576px) {
     header .display-1 {
         font-size: 2.7rem;
@@ -54,11 +53,6 @@ header .lead {
     }
 }
 
-.j-subtitle {
-    font-size: calc(1rem + 2vw);
-    color: white;
-}
-
 .unsel {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -84,15 +78,6 @@ header .lead {
     padding: .2rem;
 }
 
-.footer-text {
-    padding-left: 1rem;
-}
-
-.posts-area {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 .card-footer {
     background-color: rgba(255, 255, 255, 0);
 }
@@ -101,21 +86,36 @@ header .lead {
     box-shadow: 0 8px 16px rgba(33, 33, 33, .2), 0 5px 5px rgba(33, 33, 33, 0.2);
 }
 
-.social-links a {
-    text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 1.25rem
+.text-footer {
+    font-size: 1.1rem;
 }
 
-@media (max-width:991.98px) {
-    .social-links a {
-        padding-left: 3px;
-        padding-right: 3px
+@media (max-width:329px) {
+    .text-footer {
+        font-size: .9rem;
     }
 }
 
+.svg-footer {
+    display: inline-block;
+    font-size: inherit;
+    width: 1.3em;
+    height: 1.3rem;
+    overflow: visible;
+    vertical-align: -.11em;
+}
+
+.f-email-icon {
+    padding-left: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 1.25rem;
+}
+
 .social-links a:hover {
-    color: #6c757d;
-    cursor: pointer
+    color: #195ea2;
+    cursor: pointer;
 }
