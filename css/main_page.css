@@ -47,15 +47,6 @@ header .lead {
     }
 }
 
-.unsel {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 .btn-lg {
     border-width: 2px;
     border-radius: .8rem;

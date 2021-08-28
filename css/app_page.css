@@ -1,0 +1,43 @@
+/* Jumbotron */
+.jumbotron {
+    background: url("../img/jumbotron_default.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.display-1 {
+    color: white;
+}
+
+header .display-1 {
+    font-size: 2.5rem;
+}
+
+@media (min-width:576px) {
+    header .display-1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media (min-width:768px) {
+    header .display-1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width:992px) {
+    header .display-1 {
+        font-size: 4.2rem;
+    }
+}
+
+/* Text block */
+.text-block {
+    font-size: 1rem;
+}
+
+@media (min-width:768px) {
+    .text-block {
+        font-size: 1.1rem;
+    }
+}
