@@ -1,0 +1,15 @@
+{
+  "name": "ChurkinApps",
+  "short_name": "ChurkinApps",
+  "theme_color": "#388dff",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512"
+    }
+  ]
+}
