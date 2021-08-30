@@ -1,4 +1,5 @@
 /* Jumbotron */
+
 .jumbotron {
     background: url("../img/jumbotron_default.jpg") no-repeat center center;
     background-size: cover;
@@ -32,6 +33,7 @@ header .display-1 {
 }
 
 /* Text block */
+
 .text-block {
     font-size: 1rem;
 }
@@ -47,4 +49,3 @@ header .display-1 {
         font-size: 1.1rem;
     }
 }
-

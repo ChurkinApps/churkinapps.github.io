@@ -1,0 +1,23 @@
+.display-1 {
+    color: white;
+}
+
+header .display-1 {
+    font-size: 1.5rem;
+}
+
+@media (min-width:576px) {
+    header .display-1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:768px) {
+    header .display-1 {
+        font-size: 2.5rem;
+    }
+}
+
+.link {
+    word-wrap: break-word;
+}
