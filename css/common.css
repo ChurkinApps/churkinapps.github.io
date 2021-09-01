@@ -16,6 +16,7 @@
 /* NavigationBar toggler */
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
     outline: 5px auto #007bff;
+    border-color: transparent;
 }
 
 /* Footer */
