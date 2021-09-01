@@ -13,6 +13,10 @@
         font-size: 1.45rem!important;
     }
 }
+/* NavigationBar toggler */
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: 2px auto #007bff;
+}
 
 /* Footer */
 .text-footer {
