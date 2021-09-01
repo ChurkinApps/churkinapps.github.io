@@ -15,7 +15,7 @@
 }
 /* NavigationBar toggler */
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
-    outline: 2px auto #007bff;
+    outline: 5px auto #007bff;
 }
 
 /* Footer */
