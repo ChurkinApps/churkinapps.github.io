@@ -8,18 +8,24 @@
 }
 
 /* NavigationBar title */
+
 @media (max-width: 424.98px) {
     h3 {
         font-size: 1.45rem!important;
     }
 }
+
 /* NavigationBar toggler */
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    /* Hiding default border */
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    /* Showing outline */
     outline: 5px auto #007bff;
-    border: none;
 }
 
 /* Footer */
+
 .text-footer {
     font-size: 1.1rem;
 }
