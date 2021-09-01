@@ -15,10 +15,10 @@
     }
 }
 
-/* NavigationBar toggler */
-.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
-    /* Hiding default border */
-    border: 1px solid #fff;
+ /*NavigationBar toggler*/
+.navbar-toggler:focus {
+    /*Hiding default border*/
+    border-color: #fff;
     /* Showing outline */
     outline: .25rem auto #007bff;
 }
