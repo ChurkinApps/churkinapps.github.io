@@ -6,6 +6,9 @@ TODO List:
 * Add more animations
 * Add Russian localization support.
 
+![Screenshot](https://github.com/churkinapps/churkinapps.github.io/raw/master/readme_screenshot.jpg)
+
+
 ## License
 
     Copyright 2021 Alex Churkin.
