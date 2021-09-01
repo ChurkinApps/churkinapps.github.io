@@ -6,7 +6,7 @@ TODO List:
 * Add more animations
 * Add Russian localization support.
 
-![Screenshot](https://github.com/churkinapps/churkinapps.github.io/raw/master/readme_screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/ChurkinApps/churkinapps.github.io/main/readme_screenshot.jpg)
 
 
 ## License
