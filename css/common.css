@@ -7,11 +7,26 @@
     user-select: none;
 }
 
-/* NavigationBar title */
+.hidden {
+    opacity: 0;
+}
 
+/* NavigationBar title */
 @media (max-width: 424.98px) {
     h3 {
         font-size: 1.45rem!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        transition: transform 220ms;
+    }
+    
+    .navbar-brand:hover {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
     }
 }
 

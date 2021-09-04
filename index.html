@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XZKW2256S"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-  
-      gtag('config', 'G-5XZKW2256S');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XZKW2256S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5XZKW2256S');
+  </script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +33,7 @@
   <script defer src="js/bootstrap.min.js"></script>
   <!--Custom JS-->
   <script defer src="js/main_page.js"></script>
+  <script defer src="js/common.js"></script>
 </head>
 
 <body>
@@ -71,10 +72,10 @@
   <header>
     <div class="jumbotron mb-0 d-flex align-items-center flex-column justify-content-center text-center min-100"
       id="header">
-      <div class="display-1 unsel">
+      <div id="jumbo-h1" class="display-1 unsel">
         <span data-unselectable="unselectable content">Apps are everywhere.</span>
       </div>
-      <p class="lead unsel">
+      <p id="jumbo-h2" class="lead unsel">
         <span data-unselectable="unselectable content">Apps for everyone.</span>
       </p>
       <a class="btn btn-outline-light btn-lg" id="big-button" role="button">
