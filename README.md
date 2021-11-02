@@ -2,7 +2,7 @@ ChurkinApps
 ===========
 ChurkinApps website made with Bootstrap 4 and hosted on GitHub.
 
-![Screenshot](https://raw.githubusercontent.com/ChurkinApps/churkinapps.github.io/main/readme_screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/ChurkinApps/churkinapps.github.io/main/readme_screenshot.png)
 
 
 ## License
