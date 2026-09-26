@@ -26,7 +26,12 @@
 }
 
 header .display-1 {
-    font-size: 2.5rem;
+    /* On a phone the title shrinks with the screen, and a word too long for it ('конфиденциальности' with a large system font) breaks
+       with a hyphen instead of pushing the page wider than the screen */
+    font-size: clamp(1.75rem, 9vw, 2.5rem);
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
     animation: 700ms ease 0s 1 showTitles;
     -webkit-animation: 700ms ease 0s 1 showTitles;
     -ms-animation: 700ms ease 0s 1 showTitles;
@@ -65,5 +70,106 @@ header .display-1 {
 @media (max-width:315px) {
     .btn-lg {
         font-size: 1.1rem;
+    }
+}
+
+/* Between the documents of an app (privacy policy, third-party software, their languages) and back to its page */
+
+.doc-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 1.5rem;
+    row-gap: .5rem;
+    font-size: .95rem;
+}
+
+.doc-nav-docs,
+.doc-nav-langs {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: .25rem;
+}
+
+/* The languages at the far end of the line */
+.doc-nav-langs {
+    margin-left: auto;
+}
+
+/* A phone: the way back and the languages on the first line, the documents under them as tabs of half the width each */
+@media (max-width:767.98px) {
+    .doc-nav-langs {
+        order: 1;
+    }
+
+    .doc-nav-docs {
+        order: 2;
+        width: 100%;
+        flex-wrap: nowrap;
+        column-gap: 0;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .doc-nav-docs a {
+        flex: 1 1 0;
+        text-align: center;
+        padding: .4rem .25rem;
+        line-height: 1.25;
+    }
+
+    .doc-nav-docs a.active {
+        margin-bottom: -1px;
+    }
+}
+
+/* The page that is open: said, not offered */
+.doc-nav a.active {
+    color: #212529;
+    font-weight: 600;
+    pointer-events: none;
+    border-bottom: 2px solid #007bff;
+}
+
+.doc-nav a.active:hover {
+    text-decoration: none;
+}
+
+/* The documents under the description of an app */
+
+.app-docs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: .5rem;
+    font-size: .95rem;
+}
+
+
+/* Nothing on these pages may be wider than a phone's screen: long links (the addresses in the third-party lists) and long words break
+   instead of widening the page, and whatever still would is cut off rather than letting the page be scrolled sideways */
+
+.text-block,
+.doc-nav,
+.app-docs {
+    overflow-wrap: anywhere;
+}
+
+.doc-nav-docs a {
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@supports (overflow-x: clip) {
+    html,
+    body {
+        overflow-x: clip;
     }
 }
